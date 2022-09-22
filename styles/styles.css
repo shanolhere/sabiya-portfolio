@@ -135,7 +135,21 @@ footer .social-links{
 .social-links li:hover{
   transform: translateY(-20px);
 }
-
+/* project page styling */
+.section-details{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:left;
+  align-items:center;
+  gap:5px;
+}
+.section-details span{
+  background: var(--primary-color);
+  padding:2px;
+  color: var(--off-white);
+  border-radius:5px;
+  font-size:12px;
+}
 /* blogs page styling */
 
 .section-div{
